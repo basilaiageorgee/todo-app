@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Russo+One&display=swap');
+
+.todoComponent{
+    display: inline-block;
+    background-color: white;
+    border-radius: 15px;
+    
+}
+
+.newTaskAdder{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30px;
+    padding: 10px 0;
+    position: relative;
+    bottom: 70px;
+}
+
+.inputDiv{
+    display: flex;
+}
+ 
+.inputDiv input{
+    font-size: 15px;
+    padding: 13px 0px 13px 40px;
+    border-radius: 6px;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    outline: none;
+    background-color:rgb(235, 235, 235)
+}
+
+.addSVG{
+    position: relative;
+    left: 33px;
+}
+
+.addNote{
+    font-family: 'Inter', sans-serif;
+    background-color: #20EEB0;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 7px 30px;
+    font-size: 23px;
+    color: white;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.addNote:hover{
+    background-color: #1ace98;
+    transition: 0.3s;
+}
+
+.timeDiv{
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    text-align: right;
+    position: relative;
+    right: 10px;
+    bottom:80px;
+;}
+
+.timeDiv p{
+    margin: 0px;
+}
+
+.timeDiv h1{
+    margin: 0px;
+    font-size: 50px;
+}
