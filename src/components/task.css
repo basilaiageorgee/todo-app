@@ -11,6 +11,7 @@
     bottom: 70px;
 }
 
+
 .deleteSVG{
     cursor: pointer;
 }
@@ -32,4 +33,6 @@
 
 .task{
     margin-bottom: 0px;
+
+    max-width: 200px;
 }

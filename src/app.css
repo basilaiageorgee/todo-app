@@ -9,7 +9,7 @@
     padding-top: 250px;
 }
 
-    .left h1{
+.left h1{
     color: #007FDB;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
@@ -39,5 +39,6 @@
     .todo-container {
       flex-direction: column;
       align-items: center;
+      padding-top: 100px;
     }
   }
